@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abraham.MicrosoftOfficeInterop\Abraham.MicrosoftOfficeInterop.csproj" />
+    <ProjectReference Include="..\Abraham.Office\Abraham.Office.csproj" />
+    <ProjectReference Include="..\Abraham.ShellLib\Abraham.ShellLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Template.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
