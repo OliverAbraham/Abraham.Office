@@ -6,6 +6,13 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <Copyright>Oliver Abraham</Copyright>
+    <Description>Generator for docx files, i.e. to generate docx invoices from a docx template.</Description>
+    <PackageProjectUrl>https://github.com/OliverAbraham/Abraham.Office</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OliverAbraham/Abraham.Office</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>C:\GIT\Libs\WPFWindowLayoutManager\WPFWindowLayoutManager\license-gpl-3.0.md</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>

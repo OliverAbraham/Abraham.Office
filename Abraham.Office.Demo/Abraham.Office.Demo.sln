@@ -7,13 +7,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abraham.Office.Demo", "Abra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abraham.Office", "..\Abraham.Office\Abraham.Office.csproj", "{96DF23EF-08FE-4A5F-9627-28A539DB729C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abraham.ShellLib", "..\Abraham.ShellLib\Abraham.ShellLib.csproj", "{050EB5E0-799B-4877-AD83-3794B5F057B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abraham.ShellLib", "..\Abraham.ShellLib\Abraham.ShellLib.csproj", "{050EB5E0-799B-4877-AD83-3794B5F057B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abraham.MicrosoftOfficeInterop", "..\Abraham.MicrosoftOfficeInterop\Abraham.MicrosoftOfficeInterop.csproj", "{164DCB6B-3336-4CBF-B76D-E1E3A14EB6F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abraham.MicrosoftOfficeInterop", "..\Abraham.MicrosoftOfficeInterop\Abraham.MicrosoftOfficeInterop.csproj", "{164DCB6B-3336-4CBF-B76D-E1E3A14EB6F2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abraham.MicrosoftOfficeInterop.Fw461", "..\Abraham.MicrosoftOfficeInterop.Fw461\Abraham.MicrosoftOfficeInterop.Fw461.csproj", "{F4B4CD4A-ACDC-436C-8731-E2AD5DD46233}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{273A8684-553F-42A8-AEC5-DAFBFB5F3F3D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Readme.md = ..\Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
