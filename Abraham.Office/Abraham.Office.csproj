@@ -1,18 +1,40 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <Copyright>Oliver Abraham</Copyright>
     <Description>Generator for docx files, i.e. to generate docx invoices from a docx template.</Description>
     <PackageProjectUrl>https://github.com/OliverAbraham/Abraham.Office</PackageProjectUrl>
     <RepositoryUrl>https://github.com/OliverAbraham/Abraham.Office</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageLicenseFile>C:\GIT\Libs\WPFWindowLayoutManager\WPFWindowLayoutManager\license-gpl-3.0.md</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	  <IncludeSymbols>True</IncludeSymbols>
+	  <!-- Include symbol files (*.pdb) in the built .nupkg -->
+	  <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+	  <Title>Abraham.Office</Title>
+	  <Version>1.0.1</Version>
+	  <Authors>Oliver Abraham</Authors>
+	  <PackageIcon>Ciridata.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Ciridata.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
