@@ -5,14 +5,20 @@
 
 ## OVERVIEW
 
-This library is a Nuget package to manipulate docx files (Microsoft Office file format).
-It works as a generator for docx files, by reading a docx template and replace tokens in the file.
-The basic idea was to generate and email invoices.
-To use Microsoft Word as a layout editor, I edit the template in word and then
-use my nuget package to replace tokens by the actual values.
-Then, use a docx to PDF converter (I'm using doxillion document converter).
+Generator for DOCX and PDF files, i.e. to generate PDF files and invoices from an easy to maintain DOCX template.
+This library is a Nuget package to manipulate docx files (Microsoft Office file format) and to call a DOCX to PDf converter.
+It works as a generator for docx files, by reading a docx template and replacing tokens in the file.
+
+The basic idea was rto have a library to generate and email PDF invoices.
+And to use Microsoft Word as a layout editor (because I find it easy to maintain templates with it).
+I edit the template in word and then use my nuget package to replace tokens by actual values.
+Then, use a DOCX to PDF converter (I'm using doxillion document converter, because I can call it like a command line tool with parameters).
 Then I open up a new email window in Microsoft Outlook.
-This gives me a very easy to use solution to generate and email invoices.
+This gives me an easy to use solution to generate and email invoices.
+
+Disadvantage: On the server, you need a graphical user interface to run the converter. 
+If needed, you can configure a different converter, i.e. to be able to run on a linux machine.
+
 
 ## Source code
 

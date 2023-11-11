@@ -7,7 +7,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Copyright>Oliver Abraham</Copyright>
-    <Description>Generator for docx files, i.e. to generate docx invoices from a docx template.</Description>
+    <Description>Generator for DOCX and PDF files, i.e. to generate PDF files and invoices from an easy to maintain DOCX template.</Description>
     <PackageProjectUrl>https://github.com/OliverAbraham/Abraham.Office</PackageProjectUrl>
     <RepositoryUrl>https://github.com/OliverAbraham/Abraham.Office</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
