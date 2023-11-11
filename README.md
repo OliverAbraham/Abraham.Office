@@ -76,14 +76,34 @@ https://www.nuget.org/packages/Abraham.Office
 
 ## Getting started
 
-For an example refer to project "Abraham.Office.Demo". It demonstrates:
-- how to generate a docx file from a docx template
-- how to convert it to a PDF. (you must have doxillion document converter installed)
-- and open up the outlook "new email" window
+This nuget package needs the Doxillion Document converter.
+They offer a free version for non-commercial use.
+You can download it from https://www.nchsoftware.com/documentconvert/index.html
+Install the document converter, open it from the start menu and click through the help windows one time.
+Then, you can close the application again.
+My nuget package will open the document converter with parameters, to convert the docx file to PDF.
 
 
 
 ## SCREENSHOTS
+
+Main screen of the demo:
+![](Screenshots/screenshot1.jpg)
+
+Opening/editing the template:
+![](Screenshots/screenshot2.jpg)
+
+Verifying the generated docx file: (notice we only have the 3 rows in the table)
+![](Screenshots/screenshot3.jpg)
+
+Generating the PDF:
+![](Screenshots/screenshot4.jpg)
+
+Opening the generated PDF:
+![](Screenshots/screenshot5.jpg)
+
+Sending the PDF with Outlook:
+![](Screenshots/screenshot6.jpg)
 
 
 # MAKE A DONATION !
