@@ -1,10 +1,23 @@
 # Abraham.Office
 
-![](https://img.shields.io/github/downloads/oliverabraham/Office/total) ![](https://img.shields.io/github/license/oliverabraham/Office) ![](https://img.shields.io/github/languages/count/oliverabraham/Office) ![GitHub Repo stars](https://img.shields.io/github/stars/oliverabraham/Office?label=repo%20stars) ![GitHub Repo stars](https://img.shields.io/github/stars/oliverabraham?label=user%20stars)
+![](https://img.shields.io/github/downloads/oliverabraham/Abraham.Office/total) ![](https://img.shields.io/github/license/oliverabraham/Abraham.Office) ![](https://img.shields.io/github/languages/count/oliverabraham/Abraham.Office) ![GitHub Repo stars](https://img.shields.io/github/stars/oliverabraham/Abraham.Office?label=repo%20stars) ![GitHub Repo stars](https://img.shields.io/github/stars/oliverabraham?label=user%20stars)
+
 
 ## OVERVIEW
 
-Generate PDF files from Word format (docx) templates using Doxillion document converter.
+This library is a Nuget package to manipulate docx files (Microsoft Office file format).
+It works as a generator for docx files, by reading a docx template and replace tokens in the file.
+The basic idea was to generate and email invoices.
+To use Microsoft Word as a layout editor, I edit the template in word and then
+use my nuget package to replace tokens by the actual values.
+Then, use a docx to PDF converter (I'm using doxillion document converter).
+Then I open up a new email window in Microsoft Outlook.
+This gives me a very easy to use solution to generate and email invoices.
+
+## Source code
+
+The source code is hosted at https://github.com/OliverAbraham/Abraham.Office
+
 
 ## License
 
@@ -61,12 +74,19 @@ The Nuget Package is hosted at:
 https://www.nuget.org/packages/Abraham.Office
 
 
+## Getting started
+
+For an example refer to project "Abraham.Office.Demo". It demonstrates:
+- how to generate a docx file from a docx template
+- how to convert it to a PDF. (you must have doxillion document converter installed)
+- and open up the outlook "new email" window
+
+
 
 ## SCREENSHOTS
 
 
 # MAKE A DONATION !
-
 If you find this application useful, buy me a coffee!
 I would appreciate a small donation on https://www.buymeacoffee.com/oliverabraham
 
