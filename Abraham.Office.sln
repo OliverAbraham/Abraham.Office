@@ -11,10 +11,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Nuget Package", "1 Nuget 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Demo", "2 Demo", "{5205C019-9836-405B-BD7E-F758BE1A54C3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Solution items", "3 Solution items", "{171F3FB8-46E6-4514-B77D-B97E34146508}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Solution items", "4 Solution items", "{171F3FB8-46E6-4514-B77D-B97E34146508}"
 	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
 		LICENSE.txt = LICENSE.txt
 		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Screenshots", "3 Screenshots", "{5401336B-DA31-4BBA-9349-AFAAC0408CF2}"
+	ProjectSection(SolutionItems) = preProject
+		Screenshots\screenshot1.jpg = Screenshots\screenshot1.jpg
+		Screenshots\screenshot2.jpg = Screenshots\screenshot2.jpg
+		Screenshots\screenshot3.jpg = Screenshots\screenshot3.jpg
+		Screenshots\screenshot4.jpg = Screenshots\screenshot4.jpg
+		Screenshots\screenshot5.jpg = Screenshots\screenshot5.jpg
+		Screenshots\screenshot6.jpg = Screenshots\screenshot6.jpg
 	EndProjectSection
 EndProject
 Global
